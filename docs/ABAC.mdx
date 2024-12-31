@@ -77,7 +77,7 @@ You can use multiple ABAC attributes in a matcher. For example: `m = r.sub.Domai
 
 :::tip
 
-If you need to use a comma in a policy that conflicts with CSV's separator, you can escape it by surrounding the statement with quotation marks. For example, `"keyMatch("bob", r.sub.Role)"` will not be split.
+If you need to use a comma in a policy that conflicts with CSV's separator, you can escape it by surrounding the statement with quotation marks. For example, `"keyMatch(""bob"", r.sub.Role)"` will not be split.
 
 :::
 
